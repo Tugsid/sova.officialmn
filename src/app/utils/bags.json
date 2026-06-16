@@ -1,0 +1,33 @@
+[
+    {
+        "id": "bag-tote-001",
+        "name": "The Everyday Canvas Tote",
+        "category": "tote",
+        "brand": "CarryAll Co.",
+        "price": 145.000,
+        "currency": "MNT",
+        "sku": "CA-TOT-CAN-01",
+        "in_stock": true,
+        "origin": "Italian",
+        "description": "A spacious and durable canvas tote bag perfect for daily errands, beach trips, or your morning commute. Features a zipped interior pocket.",
+        "materials": ["100% Organic Cotton Canvas", "Metal Hardware"],
+        "dimensions": {
+          "height": "15 inches",
+          "width": "12 inches",
+          "depth": "5 inches",
+          "unit": "in"
+        },
+        "colors": [
+          { "name": "Natural Beige", "hex": "#F5F5DC" },
+          { "name": "Midnight Black", "hex": "#000000" },
+          { "name": "Olive Green", "hex": "#556B2F" }
+        ],
+        "images": [
+          "https://wearneutralground.com/cdn/shop/files/everyday-canvas-tote-bag-793954.jpg?v=1745136541&width=1365",
+          "https://cavora.in/cdn/shop/files/everyday-canvas-tote-bag-the-daily-haul-stylish-work-tote-cavoracv-dh-og-tote-8005101.jpg?v=1778757137",
+          "https://modernmakerie.com/cdn/shop/files/evening-wildflower-everyday-canvas-work-tote-bag-with-leather-straps-1514091.jpg?v=1770034452"
+        ],
+        "tags": ["casual", "eco-friendly", "spacious", "work"],
+        "silhouette_description": "The silhouette of a classic tote bag is a clean, structured rectangle or square with straight vertical edges and a completely flat, open top."
+      }
+]
