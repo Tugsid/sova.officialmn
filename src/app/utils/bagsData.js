@@ -8,8 +8,8 @@ export const bagsData = [
     colorHex: "#610909ff",
     material: "Leather",
     tag: "New",
-    primaryImage: "/sova-images/1.1.png",
-    modelImages: ["/sova-images/1.2.png"]
+    primaryImage: "/sova-images/1.2.png",
+    modelImages: ["/sova-images/1.1.1.png"]
   },
   {
     id: "cream-ring-handle-bag",
@@ -20,8 +20,8 @@ export const bagsData = [
     colorHex: "#e8ddd0",
     material: "Leather",
     tag: "New",
-    primaryImage: "/sova-images/2.1.png",
-    modelImages: ["/sova-images/2.2.png"]
+    primaryImage: "/sova-images/2.2.png",
+    modelImages: ["/sova-images/2.1.png"]
   },
   {
     id: "gold-chocolate-hobo-bag",
@@ -33,7 +33,7 @@ export const bagsData = [
     material: "Leather",
     tag: null,
     primaryImage: "/sova-images/3.2.png",
-    modelImages: ["/sova-images/3.1.png"]
+    modelImages: ["/sova-images/3.1.1.png"]
   },
   {
     id: "gold-espresso-suede-hobo",
@@ -44,8 +44,8 @@ export const bagsData = [
     colorHex: "#4a3c31",
     material: "Suede",
     tag: "Limited",
-    primaryImage: "/sova-images/4.1.png",
-    modelImages: ["/sova-images/4.2.png"]
+    primaryImage: "/sova-images/4.2.png",
+    modelImages: ["/sova-images/4.1.png"]
   },
   {
     id: "mini-silver-bag",
@@ -56,8 +56,8 @@ export const bagsData = [
     colorHex: "#c0c0c0",
     material: "Leather",
     tag: "Party Edit",
-    primaryImage: "/sova-images/5.1.png",
-    modelImages: ["/sova-images/5.2.png"]
+    primaryImage: "/sova-images/5.2.png",
+    modelImages: ["/sova-images/5.1.png"]
   },
   {
     id: "cream-poise-shoulder-bag",
@@ -68,8 +68,8 @@ export const bagsData = [
     colorHex: "#e8ddd0",
     material: "Leather",
     tag: null,
-    primaryImage: "/sova-images/6.1.png",
-    modelImages: ["/sova-images/6.2.png"]
+    primaryImage: "/sova-images/6.2.png",
+    modelImages: ["/sova-images/6.1.png"]
   },
   {
     id: "dark-cherry-shoulder-bag",
@@ -80,8 +80,8 @@ export const bagsData = [
     colorHex: "#4a0e0e",
     material: "Leather",
     tag: "Restocked",
-    primaryImage: "/sova-images/7.1.png",
-    modelImages: ["/sova-images/7.2.png"]
+    primaryImage: "/sova-images/7.2.png",
+    modelImages: ["/sova-images/7.1.png"]
   },
   {
     id: "gold-suede-hobo-bag",
@@ -92,8 +92,8 @@ export const bagsData = [
     colorHex: "#a88a64",
     material: "Suede",
     tag: "Trending",
-    primaryImage: "/sova-images/8.1.png",
-    modelImages: ["/sova-images/8.2.png"]
+    primaryImage: "/sova-images/8.2.png",
+    modelImages: ["/sova-images/8.1.png"]
   },
   {
     id: "gold-chocolate-suede-hobo",
@@ -104,8 +104,8 @@ export const bagsData = [
     colorHex: "#3d2314",
     material: "Suede",
     tag: null,
-    primaryImage: "/sova-images/9.1.png",
-    modelImages: ["/sova-images/9.2.png"]
+    primaryImage: "/sova-images/9.2.png",
+    modelImages: ["/sova-images/9.1.png"]
   },
   {
     id: "ivory-poise-shoulder-bag",
@@ -116,8 +116,8 @@ export const bagsData = [
     colorHex: "#fbfaf7",
     material: "Leather",
     tag: "Exclusive",
-    primaryImage: "/sova-images/10.1.png",
-    modelImages: ["/sova-images/10.2.png"]
+    primaryImage: "/sova-images/10.2.png",
+    modelImages: ["/sova-images/10.1.png"]
   },
   {
     id: "espresso-suede-book-tote-33",
@@ -128,9 +128,9 @@ export const bagsData = [
     colorHex: "#4a3c31",
     material: "Suede",
     tag: "Classic",
-    primaryImage: "/sova-images/11.1.png",
+    primaryImage: "/sova-images/11.2.png",
     modelImages: [
-      "/sova-images/11.2.png",
+      "/sova-images/11.1.png",
       "/sova-images/11.3.png"
     ]
   },
@@ -155,8 +155,8 @@ export const bagsData = [
     colorHex: "#eaeaea",
     material: "Leather",
     tag: null,
-    primaryImage: "/sova-images/13.1.png",
-    modelImages: ["/sova-images/13.2.png"]
+    primaryImage: "/sova-images/13.2.png",
+    modelImages: ["/sova-images/13.1.png"]
   },
   {
     id: "black-belted-leather-tote",

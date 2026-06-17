@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SOVA Image Verification</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      background: #f7f4ef;
+      color: #171514;
+      padding: 40px;
+    }
+    h1 {
+      font-family: serif;
+      border-bottom: 2px solid #d8cec3;
+      padding-bottom: 10px;
+      margin-bottom: 30px;
+    }
+    .group-container {
+      background: white;
+      border: 1px solid #d8cec3;
+      padding: 20px;
+      margin-bottom: 30px;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+    .group-title {
+      font-size: 18px;
+      font-weight: bold;
+      border-bottom: 1px solid #e8ddd0;
+      padding-bottom: 5px;
+    }
+    .image-row {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    .image-box {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background: #fdfdfd;
+      border: 1px solid #eee;
+      padding: 10px;
+      width: 250px;
+    }
+    .image-box img {
+      width: 100%;
+      height: 300px;
+      object-fit: contain;
+      background: #ebe5dc;
+    }
+    .label {
+      margin-top: 10px;
+      font-weight: bold;
+      font-size: 14px;
+    }
+    .size {
+      font-size: 12px;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <h1>SOVA Image Verification (Flat vs Model)</h1>
+  <p>Verify that the first image (X.1.png) is ALWAYS the flat/studio shot of the bag, and subsequent images (X.2.png, X.3.png) are the model shots.</p>
+
+  <div id="grid"></div>
+
+  <script>
+    const groups = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 16, 17, 18];
+    const grid = document.getElementById('grid');
+
+    groups.forEach(g => {
+      const container = document.createElement('div');
+      container.className = 'group-container';
+
+      const title = document.createElement('div');
+      title.className = 'group-title';
+      title.textContent = `Group ${g}`;
+      container.appendChild(title);
+
+      const row = document.createElement('div');
+      row.className = 'image-row';
+
+      // Load X.1
+      const box1 = document.createElement('div');
+      box1.className = 'image-box';
+      const img1 = document.createElement('img');
+      img1.src = `/sova-images/${g}.1.png?t=${Date.now()}`;
+      const lbl1 = document.createElement('div');
+      lbl1.className = 'label';
+      lbl1.textContent = `${g}.1.png (Flat Shot)`;
+      box1.appendChild(img1);
+      box1.appendChild(lbl1);
+      row.appendChild(box1);
+
+      // Load X.2
+      const box2 = document.createElement('div');
+      box2.className = 'image-box';
+      const img2 = document.createElement('img');
+      img2.src = `/sova-images/${g}.2.png?t=${Date.now()}`;
+      const lbl2 = document.createElement('div');
+      lbl2.className = 'label';
+      lbl2.textContent = `${g}.2.png (Model Shot)`;
+      box2.appendChild(img2);
+      box2.appendChild(lbl2);
+      row.appendChild(box2);
+
+      // Load X.3 (Only for Group 11)
+      if (g === 11) {
+        const box3 = document.createElement('div');
+        box3.className = 'image-box';
+        const img3 = document.createElement('img');
+        img3.src = `/sova-images/11.3.png?t=${Date.now()}`;
+        const lbl3 = document.createElement('div');
+        lbl3.className = 'label';
+        lbl3.textContent = `11.3.png (Model Shot 2)`;
+        box3.appendChild(img3);
+        box3.appendChild(lbl3);
+        row.appendChild(box3);
+      }
+
+      container.appendChild(row);
+      grid.appendChild(container);
+    });
+  </script>
+</body>
+</html>
