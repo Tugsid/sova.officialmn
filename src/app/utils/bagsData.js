@@ -8,8 +8,8 @@ export const bagsData = [
     colorHex: "#610909ff",
     material: "Leather",
     tag: "New",
-    primaryImage: "/sova-images/1.2.png",
-    modelImages: ["/sova-images/1.1.png"]
+    primaryImage: "/sova-images/1.1.png",
+    modelImages: ["/sova-images/1.2.png"]
   },
   {
     id: "cream-ring-handle-bag",
